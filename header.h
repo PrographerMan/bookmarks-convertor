@@ -10,7 +10,7 @@
 using json = nlohmann::json;
 
 std::ofstream outFile("bookmarks.json");
-std::ifstream inFile("new.txt");
+std::ifstream inFile("bookmarks");
 json js;
 
 void parse(json obj) {
